@@ -1,129 +1,131 @@
 @keyframes imageRollFadeInOut {
   0% {
-    opacity:1;
+    opacity: 1;
   }
   17% {
-    opacity:1;
+    opacity: 1;
   }
   25% {
-    opacity:0;
+    opacity: 0;
   }
   50% {
-    opacity:0;
+    opacity: 0;
   }
   75% {
-    opacity:1;
+    opacity: 1;
   }
   100% {
-    opacity:1;
+    opacity: 1;
   }
 }
 
 html {
-    width: 100%;
-    height: 100%;
-    margin: 0px;
-    padding: 0px;
-    overflow-x: hidden
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 .container {
-	margin: 0% 2% 2% 2%;
-	font-family: 'Montserrat';
-	justify-content: center;
+  margin: 0% 2% 2% 2%;
+  font-family: "Montserrat";
+  justify-content: center;
 }
 
 .flex-row {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .flex-row-top {
-    display: flex;
-    height: 100vh;
+  display: flex;
+  height: 100vh;
 }
 
 .flex-col {
-    display: flex;
-    flex-direction: column;
-    width: 49%;
+  display: flex;
+  flex-direction: column;
+  width: 49%;
 }
 
 .flex-col-top {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 49%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 49%;
 }
 
-.col-wrapper{
-    background-color:#79BAB5;
-    height: 100vh;
+.col-wrapper {
+  background-color: #79bab5;
+  /* background: linear-gradient(45deg, #4ecdc4 0%, #556270 100%); */
+  height: 100vh;
 }
 
 .col-wrapper-secondary {
-    background-color: #4e9791;
+  background-color: #4e9791;
 }
 
 .top-content {
-    display: flex;
-    text-align: justify;
-    align-items: center;
+  display: flex;
+  text-align: justify;
+  align-items: center;
 }
 
 .top-content-title {
-    display: flex;
-    font-size: 13vw;
-    font-weight: 600;
+  display: flex;
+  font-size: 13vw;
+  font-weight: 600;
 }
 
 .top-title {
-    display: flex;
-    font-size: 13vw;
-    font-weight: 600;
-    padding-left: 2%;
+  display: flex;
+  font-size: 13vw;
+  font-weight: 600;
+  padding-left: 2%;
 }
 
 .top-content-title-secondary {
-    font-size: 13vw;
-    font-weight: 600;
+  font-size: 13vw;
+  font-weight: 600;
 }
 
-.about-me-content{
-    padding-left: 1%;
-    padding-right: 1%;
-    text-align: justify;
+.about-me-content {
+  padding-left: 1%;
+  padding-right: 1%;
+  text-align: justify;
 }
 
 .about-me-content i {
-    display: flex;
-    margin: 2%;
-    justify-content: center
+  display: flex;
+  margin: 2%;
+  justify-content: center;
 }
 
 .title {
-    text-align: center;
-    font-size: 32px;
-    font-weight: 600;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 600;
 }
 
-.title-grid{
-    font-size: 20px;
-    font-weight: 600;
+.title-grid {
+  font-size: 20px;
+  font-weight: 600;
 }
 
 .sticky {
-    position: fixed;
-    top: 0;
-    right: 3.5%;
-    width: 100%;
-    height:70px;
-    z-index: 1;
+  position: fixed;
+  top: 0;
+  right: 3.5%;
+  width: 100%;
+  height: 70px;
+  z-index: 1;
 }
 
 .icon-group {
-    display: flex;
-    justify-content: flex-end;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .topnav .icon {
@@ -131,389 +133,388 @@ html {
 }
 
 .profile-picture {
-    background-image: url("../IMG_1106.JPG");
-    background-size: cover;
-    height:108vh;
+  background-image: url("../IMG_1106.JPG");
+  background-size: cover;
+  height: 108vh;
 }
 
 /*Navbar*/
 
 li {
-    float: right;
+  float: right;
 }
 
 li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
 li a:hover:not(.active) {
-    background-color: #111;
+  background-color: #111;
 }
 
 p {
-    margin: 0;
-    line-height: 1.8;
-    text-align: justify;
-    font-size: 3vh;
+  margin: 0;
+  line-height: 1.8;
+  text-align: justify;
+  font-size: 3vh;
 }
 
 form {
-    display: flex;
-    flex-direction: column;
-    padding: 10%;
+  display: flex;
+  flex-direction: column;
+  padding: 10%;
 }
 
 span {
-    font-size: 28px;
-    font-weight: 600;
+  font-size: 28px;
+  font-weight: 600;
 }
 
 /*MAINHEADER*/
 
 #mainHeader {
-    position: relative;
-    background-color: #79BAB5;
-    height:100vh;
+  position: relative;
+  background-color: #79bab5;
+  height: 100vh;
 }
 
 #mainHeader ul {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    list-style-type: none;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  list-style-type: none;
 }
 
 /*MAINCONTENT*/
 
 #mainContent .main-content-button a {
-    display: flex;
-    font-size: 20px;
-    font-weight: 600;
-    justify-content: center;
-    padding: 16px 24px;
-    background-color: #ff9019;
+  display: flex;
+  font-size: 20px;
+  font-weight: 600;
+  justify-content: center;
+  padding: 16px 24px;
+  background-color: #ff9019;
 }
 
 #imageRoll {
-    position:relative;
-    height:50%;
-    width:100%;
-    margin:0 auto;
+  position: relative;
+  height: 50%;
+  width: 100%;
+  margin: 0 auto;
 }
 
 #imageRoll img {
-    position:absolute;
-    background-color: #79BAB5;
-    width: 100%;
-    left:0;
-    -webkit-transition: opacity 1s ease-in-out;
-    -moz-transition: opacity 1s ease-in-out;
-    -o-transition: opacity 1s ease-in-out;
-    transition: opacity 1s ease-in-out;
+  position: absolute;
+  background-color: #79bab5;
+  width: 100%;
+  left: 0;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
 }
 
 #imageRoll img {
-    animation-name: imageRollFadeInOut;
-    animation-timing-function: ease-in-out;
-    animation-iteration-count: infinite;
-    animation-duration: 10s;
-    animation-direction: alternate;
+  animation-name: imageRollFadeInOut;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-duration: 10s;
+  animation-direction: alternate;
 }
 
 #imageRoll img:nth-of-type(1) {
-    animation-delay: 6s;
+  animation-delay: 6s;
 }
 #imageRoll img:nth-of-type(2) {
-    animation-delay: 4s;
+  animation-delay: 4s;
 }
 #imageRoll img:nth-of-type(3) {
-    animation-delay: 2s;
+  animation-delay: 2s;
 }
 
 /*EDUCATIONBOX*/
 
 #educationBox {
-    background-color:#79BAB5;
+  background-color: #79bab5;
 }
 
 #educationBox .row {
-    display: flex;
-    flex-grow: 1;
-    flex-shrink: 1;
-    flex-basis: auto;
+  display: flex;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: auto;
 }
 
 #educationBox .content .col-4 {
-    position: relative;
-    display: flex;
-    transition: all .2s ease-in-out;
-    flex-grow: 1;
-    flex-basis: 16%;
-    flex-direction: column;
+  position: relative;
+  display: flex;
+  transition: all 0.2s ease-in-out;
+  flex-grow: 1;
+  flex-basis: 16%;
+  flex-direction: column;
 }
 
 #educationBox .content .col-4 .btn-content {
-    background-color: #ff9019;
+  background-color: #ff9019;
 }
 
 #educationBox .content .col-4 .btn-content a {
-    padding: 16px 0px 16px 0px;
-    text-decoration: none;
-    display: flex;
-    justify-content: center;
+  padding: 16px 0px 16px 0px;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
 }
 
 #educationBox .content .col-4:hover {
-    transition: color 0.2s ease;
-    transform: scale(1.05);
-    color: white;
+  transition: color 0.2s ease;
+  transform: scale(1.05);
+  color: white;
 }
 
 #educationBox .edu-content-box {
-    padding: 5%;
-    flex: 1 1 auto;
+  padding: 5%;
+  flex: 1 1 auto;
 }
 
 #educationBox .edu-content-box img {
-    width: 100%;
+  width: 100%;
 }
 
 #educationBox .edu-content-box p {
-    font-size: 1vw;
+  font-size: 1vw;
 }
 
 #educationBox .edu-content-box .title-content-box {
-    text-align: center;
-    font-size: 28px;
-    font-weight: 600;
+  text-align: center;
+  font-size: 28px;
+  font-weight: 600;
 }
 
 /*skills*/
 #skillsBox .content {
-    background-color:#79BAB5;
+  background-color: #79bab5;
 }
 
 #skillsBox img {
-    width:100%;
+  width: 100%;
 }
 
 #skillsBox .row {
-    padding: 0% 10% 5% 10%;
-    grid-gap: 20px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+  padding: 0% 10% 5% 10%;
+  grid-gap: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 #skillsBox .row .col {
-    text-align: center;
-    position: relative;
+  text-align: center;
+  position: relative;
 }
 
 #skillsBox .row .col .box {
-    background: #d3d3d3;
-    position: absolute;
-    text-align: justify;
-    font-size: 12px;
-    bottom: 0;
-    left: 0;
-	height: 0;
-	width: 100%;
-	color: white;
-	transition: all .2s ease 0s;
-    opacity:0;
-    overflow: scroll;
+  background: #d3d3d3;
+  position: absolute;
+  text-align: justify;
+  font-size: 12px;
+  bottom: 0;
+  left: 0;
+  height: 0;
+  width: 100%;
+  color: white;
+  transition: all 0.2s ease 0s;
+  opacity: 0;
+  overflow: scroll;
 }
 
 #skillsBox .row .col .box p {
-    padding: 5% 5% 0% 5%;
-    font-size: 14px;
+  padding: 5% 5% 0% 5%;
+  font-size: 14px;
 }
 
 #skillsBox .box span {
-    font-size: 14;
-    font-weight:600;
+  font-size: 14;
+  font-weight: 600;
 }
 
 #skillsBox .col:hover .box {
-    display:block;
-    color: black;
-	width: 100%;
-	height:75%;
-	opacity: 0.8;    
+  display: block;
+  color: black;
+  width: 100%;
+  height: 75%;
+  opacity: 0.8;
 }
 
 #skillsBox .col:hover img {
-    filter:blur(8px);
+  filter: blur(8px);
 }
 
 /*CONTACTME*/
 
 #contactMe .main-content-button input {
-    background-color: #ff9019;
-    font-family: 'Montserrat';
-    font-size: 20px;
-    font-weight: 600;
-    text-decoration: none;
-    width: 100%;
-    justify-content: center;
+  background-color: #ff9019;
+  font-family: "Montserrat";
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: none;
+  width: 100%;
+  justify-content: center;
 }
 
 input {
-    padding: 16px;
-    font-size: 20px;
-    margin-bottom: 32px;  
+  padding: 16px;
+  font-size: 20px;
+  margin-bottom: 32px;
 }
 
 #contactMe img {
-    width: 50%;
-    height: 50%;
-    margin-left: 25%;
+  width: 50%;
+  height: 50%;
+  margin-left: 25%;
 }
 
 #contactMe .top-content-title-secondary {
-    background-color: #79BAB5;
+  background-color: #79bab5;
 }
 
 #contactMe .title-content-box {
-    font-size: 3vw;
-    font-weight: 600;
-    text-align: center;
+  font-size: 3vw;
+  font-weight: 600;
+  text-align: center;
 }
 
 /*footer*/
 
 #footer .flex-row {
-    background-color:#79BAB5;
+  background-color: #79bab5;
 }
 
 #footer i {
-    margin-left: 5%;
-    margin-right: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 @media (min-width: 701px) and (max-width: 1180px) {
-    .top-content {
-        flex-direction: column;
-    }
-    .top-content-title {
-        font-size: 22vw;
-    }
-    
-    #educationBox .col-4 p {
-        font-size: 1.5vw;
-    }
-    
-    #educationBox .edu-content-box .title-content-box {
-        font-size: 16px;
-    }
-    
-    #skillsBox .row {
-        grid-template-columns: 1fr 1fr;
-    }
-    
-    p {
-        font-size: 2.3vh;
-    }
+  .top-content {
+    flex-direction: column;
+  }
+  .top-content-title {
+    font-size: 22vw;
+  }
+
+  #educationBox .col-4 p {
+    font-size: 1.5vw;
+  }
+
+  #educationBox .edu-content-box .title-content-box {
+    font-size: 16px;
+  }
+
+  #skillsBox .row {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  p {
+    font-size: 2.3vh;
+  }
 }
 
 @media (max-width: 900px) {
-    #mainHeader {
-        height: 125vw;
-    }
-    
-    .top-title {
-        font-size: 20vw;
-        justify-content: center;
-    }
-    
-    .flex-row-top {
-        flex-direction: column;
-        align-items: center;
-        height: auto;
-    }
-    .flex-col-top {
-        display: flex;
-        flex-direction: column;
-        width: 100%; 
-    }
+  #mainHeader {
+    height: 125vw;
+  }
+
+  .top-title {
+    font-size: 20vw;
+    justify-content: center;
+  }
+
+  .flex-row-top {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+  }
+  .flex-col-top {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
 }
 
 @media (max-width: 700px) {
-    #mainHeader {
-        height: 125vw;
-    }
-    #navbar {
-        display:none;
-    }
-    
-    .flex-row {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: nowrap;
-        align-items: stretch;
-        justify-content: space-between;
-    }
-      
-    .flex-col {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-    }
-    
-    .top-content {
-        flex-direction: column;
-    }
-    
-    .top-content-title {
-        font-size: 34vw;
-    }
-    
-    .top-content-title-secondary {
-        font-size: 25vw;
-    }
-    
-    .icon-group {
-        justify-content: space-evenly;
-    }
-     
-    #skillsBox .row {
-        grid-template-columns: 1fr 1fr;
-    }
-    
-    #educationBox .edu-content-box p {
-        font-size: 3vw;
-    }
-    
-    #contactMe .title-content-box {
+  #mainHeader {
+    height: 125vw;
+  }
+  #navbar {
+    display: none;
+  }
+
+  .flex-row {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: stretch;
+    justify-content: space-between;
+  }
+
+  .flex-col {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .top-content {
+    flex-direction: column;
+  }
+
+  .top-content-title {
+    font-size: 34vw;
+  }
+
+  .top-content-title-secondary {
+    font-size: 25vw;
+  }
+
+  .icon-group {
+    justify-content: space-evenly;
+  }
+
+  #skillsBox .row {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  #educationBox .edu-content-box p {
+    font-size: 3vw;
+  }
+
+  #contactMe .title-content-box {
     font-size: 7vw;
-    }
-    
-    #footer p {
-        text-align: center;
-    }
-    
-    #footer a {
-        text-align: center;
-    }
+  }
+
+  #footer p {
+    text-align: center;
+  }
+
+  #footer a {
+    text-align: center;
+  }
 }
-    
+
 @media (max-width: 500px) {
-    p {
-        font-size: 2.5vh;
-    }
-    
-    #skillsBox .row {
-        grid-template-columns: 1fr;
-    }
+  p {
+    font-size: 2.5vh;
+  }
+
+  #skillsBox .row {
+    grid-template-columns: 1fr;
+  }
 }
 
 @media (max-width: 450px) {
-    p {
-        font-size: 2.3vh;
-    }
+  p {
+    font-size: 2.3vh;
+  }
 }
-
