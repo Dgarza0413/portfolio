@@ -18,5 +18,8 @@
     "express": "^4.16.4",
     "mongoose": "^5.4.11",
     "serve-static": "^1.13.2"
+  },
+  "engines": {
+    "node": "10.15.3"
   }
 }
