@@ -22,6 +22,4 @@ app.post("");
 app.listen(PORT, () =>
   console.log(`server is listening on port ${PORT}! on ${Url}`)
 );
-// app.listen(process.env.PORT, process.env.IP, function() {
-//   console.log("server is listening");
-// });
+
