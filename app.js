@@ -2,7 +2,7 @@ var express = require("express");
 var app = express();
 var bodyParser = require("body-parser");
 var mongoose = require("mongoose");
-var port = 80;
+var port = 3000;
 
 //mongoose.connect("mongodb://localhost/portfolio");
 app.use(express.static(__dirname + "/public"));
