@@ -2,7 +2,7 @@ var express = require("express");
 var app = express();
 var bodyParser = require("body-parser");
 var mongoose = require("mongoose");
-// var port = 3000;
+var PORT = process.env.PORT || 5000;
 
 //mongoose.connect("mongodb://localhost/portfolio");
 app.use(express.static(__dirname + "/public"));
@@ -19,8 +19,9 @@ app.get("/", function (req, res) {
 app.post("");
 
 //must change to different port
-app.listen(process.env.PORT || 5000)
-console.log(`server is listening on port ${port}! on ${Url}`);
+app.listen(PORT, () =>
+  console.log(`server is listening on port ${port}! on ${Url}`)
+);
 // app.listen(process.env.PORT, process.env.IP, function() {
 //   console.log("server is listening");
 // });
