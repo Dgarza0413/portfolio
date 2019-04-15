@@ -20,7 +20,7 @@ app.post("");
 
 //must change to different port
 app.listen(PORT, () =>
-  console.log(`server is listening on port ${port}! on ${Url}`)
+  console.log(`server is listening on port ${PORT}! on ${Url}`)
 );
 // app.listen(process.env.PORT, process.env.IP, function() {
 //   console.log("server is listening");
