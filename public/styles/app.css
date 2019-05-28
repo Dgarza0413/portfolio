@@ -59,7 +59,6 @@ html {
 
 .col-wrapper {
   background-color: #79bab5;
-  /* background: linear-gradient(45deg, #4ecdc4 0%, #556270 100%); */
   height: 100vh;
 }
 
@@ -81,9 +80,9 @@ html {
 
 .top-title {
   display: flex;
+  justify-content: center;
   font-size: 13vw;
   font-weight: 600;
-  padding-left: 2%;
 }
 
 .top-content-title-secondary {
@@ -125,7 +124,7 @@ html {
 
 .icon-group {
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-evenly;
 }
 
 .topnav .icon {
@@ -271,7 +270,7 @@ span {
 
 #educationBox .content .col-4:hover {
   transition: color 0.2s ease;
-  transform: scale(1.05);
+  /* transform: scale(1.05); */
   color: white;
 }
 
@@ -293,6 +292,64 @@ span {
   font-size: 28px;
   font-weight: 600;
 }
+
+/*EDUCATIONBOX*/
+
+#appsBox {
+  background-color: #79bab5;
+}
+
+#appsBox .row {
+  display: flex;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: auto;
+}
+
+#appsBox .content .col-4 {
+  position: relative;
+  display: flex;
+  transition: all 0.2s ease-in-out;
+  flex-grow: 1;
+  flex-basis: 16%;
+  flex-direction: column;
+}
+
+#appsBox .content .col-4 .btn-content {
+  background-color: #ff9019;
+}
+
+#appsBox .content .col-4 .btn-content a {
+  padding: 16px 0px 16px 0px;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+}
+
+#appsBox .content .col-4:hover {
+  transition: color 0.2s ease;
+  color: white;
+}
+
+#appsBox .edu-content-box {
+  padding: 5%;
+  flex: 1 1 auto;
+}
+
+#appsBox .edu-content-box img {
+  width: 100%;
+}
+
+#appsBox .edu-content-box p {
+  font-size: 1vw;
+}
+
+#appsBox .edu-content-box .title-content-box {
+  text-align: center;
+  font-size: 28px;
+  font-weight: 600;
+}
+
 
 /*skills*/
 #skillsBox .content {
@@ -392,7 +449,7 @@ input {
   background-color: #79bab5;
 }
 
-#footer i {
+#footer a i {
   margin-left: 5%;
   margin-right: 5%;
 }
